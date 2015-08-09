@@ -1,0 +1,22 @@
+{
+  "name": "esdoc-hosting-safe-plugin",
+  "version": "0.0.0",
+  "description": "ESDoc Hosting Safe Plugin",
+  "author": "h13i32maru",
+  "homepage": "https://github.com/esdoc/esdoc-hosting-safe-plugin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esdoc/esdoc-hosting-safe-plugin"
+  },
+  "scripts": {
+    "esdoc": "esdoc -c ./esdoc.json"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "esdoc-es7-plugin": "",
+    "esdoc-importpath-plugin": ""
+  },
+  "main": "out/src/Index.js"
+}
