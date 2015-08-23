@@ -1,6 +1,12 @@
 {
   "source": "./src",
   "destination": "./out/esdoc",
+  "title": "ESDoc Test Fixture",
+  "test": {
+    "type": "mocha",
+    "source": "./test",
+    "includes": ["Test.js$"]
+  },
   "plugins": [
     {
       "name": "esdoc-es7-plugin"
