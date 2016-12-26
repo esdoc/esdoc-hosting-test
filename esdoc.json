@@ -7,10 +7,17 @@
     "source": "./test",
     "includes": ["Test.js$"]
   },
+  "experimentalProposal": {
+    "classProperties": true,
+    "objectRestSpread": true,
+    "decorators": true,
+    "doExpressions": true,
+    "functionBind": true,
+    "asyncGenerators": true,
+    "exportExtensions": true,
+    "dynamicImport": true
+  },
   "plugins": [
-    {
-      "name": "esdoc-es7-plugin"
-    },
     {
       "name": "esdoc-importpath-plugin",
       "option": {
